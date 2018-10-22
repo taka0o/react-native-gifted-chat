@@ -49,7 +49,7 @@ export default class Message extends React.PureComponent {
       if (this.props.renderDay) {
         return this.props.renderDay(dayProps);
       }
-      return <Day {...dayProps} />;
+      //return <Day {...dayProps} />;
     }
     return null;
   }
